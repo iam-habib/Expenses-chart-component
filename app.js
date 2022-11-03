@@ -5,7 +5,7 @@ const spend = document.querySelectorAll(".spend");
 const days = document.querySelectorAll(".day");
 
 for (let i = 0; days.length > i; i++) {
-  const height = data[i].amount / 7;
+  const height = data[i].amount / 6;
   days[i].textContent = data[i].day;
   spend[i].textContent = `$${data[i].amount}`;
   bars[i].style.height = `${height}em`;
