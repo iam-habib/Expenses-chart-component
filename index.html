@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <main>
+      <div class="expense_chart">
+        <div class="balance">
+          <div class="my_balance">
+            <p>My balance</p>
+            <h2>$921.48</h2>
+          </div>
+          <img class="logo" src="images/logo.svg" alt="" />
+        </div>
+        <div class="spending">
+          <h1>Spending - Last 7 days</h1>
+          <div class="chart">
+            <div class="mon bar_chart">
+              <div class="mon_bar bar"></div>
+              <div class="spend mon_spend"></div>
+              <p class="day_1 day"></p>
+            </div>
+            <div class="tue bar_chart">
+              <div class="tue_bar bar"></div>
+              <div class="spend tue_spend"></div>
+              <p class="day_2 day"></p>
+            </div>
+            <div class="wed bar_chart">
+              <div class="wed_bar bar"></div>
+              <div class="spend wed_spend"></div>
+              <p class="day_3 day"></p>
+            </div>
+            <div class="thu bar_chart">
+              <div class="thu_bar bar"></div>
+              <div class="spend thu_spend"></div>
+              <p class="day_4 day"></p>
+            </div>
+            <div class="fri bar_chart">
+              <div class="fri_bar bar"></div>
+              <div class="spend fri_spend"></div>
+              <p class="day_5 day"></p>
+            </div>
+            <div class="sat bar_chart">
+              <div class="sat_bar bar"></div>
+              <div class="spend sat_spend"></div>
+              <p class="day_6 day"></p>
+            </div>
+            <div class="sun bar_chart">
+              <div class="sun_bar bar"></div>
+              <div class="spend sun_spend"></div>
+              <p class="day_7 day"></p>
+            </div>
+          </div>
+          <hr />
+          <div class="spending_month">
+            <div class="this_month">
+              <p>Total this month</p>
+              <h1>$478.33</h1>
+            </div>
+            <div class="last_month">
+              <h4>+2.4%</h4>
+              <p>from last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
